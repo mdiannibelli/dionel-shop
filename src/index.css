@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbarLogo {
+  display: flex;
+  width: 172px;
+  height: 102px;
+}
+
+.footerLogo {
+  width: 210px;
+  height: 210px;
+}
+
+.h4Navbar{
+  text-transform: uppercase;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.counter {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: center;
+  align-items: center;
+  margin-left: -10px;
+  gap: 10px;
+}
+
+.counterDetail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80px;
+}
+
+.buttonCounter {
+  margin-left: 18px;
+}
+
+.buttonCounter2 {
+  margin-right: 18px;
+}
+
+.counter h1 {
+  font-size: 1.5rem;
+}
+
+.productList {
+  display: flex;
+  justify-content: center;
+}
+
+.detailContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.detailImg {
+  width: 420px;
+  display: flex;
+  align-items: center;
+}
+
+.detail {
+  display: flex;
+}
+
+.detailContent {
+  width: 1020px;
+}
+
+.h1Detail {
+  opacity: 0.9;
+  margin-top: 46px;
+}
+
+.itemListContainer {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 32px;
+  padding: 10px;
+  margin: 24px;
+  margin-bottom: 72px;
+}
+
+.h1Detail {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.detailContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detailContent h4 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.h4Detail {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.pDetail {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+  white-space: break-spaces;
+}
+
+.navbarCategory {
+  text-decoration: none;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+  margin-bottom: 48px;
+}
+
+.productImgCart img {
+  width: 112px;
+  height: 100px;
+}
+
+.itemCart {
+  display: flex;
+  justify-content: center;
+}
