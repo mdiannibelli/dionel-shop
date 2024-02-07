@@ -155,3 +155,43 @@ code {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .itemListContainer {
+    grid-template-columns: 1fr;
+  }
+  nav .container {
+    margin: 10px;
+    justify-content: flex-end;
+  }
+  
+  .py-5 .row {
+    flex-direction: column;
+  }
+
+  .py-5 .row div {
+    padding: 0;
+    text-align: center;
+  }
+
+  .py-5 .row .logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .list-unstyled {
+    justify-content: center;
+  }
+
+  #newsletter1 {
+    height: 40px;
+  }
+
+  form {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+}

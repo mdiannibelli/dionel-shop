@@ -6,7 +6,7 @@ export default function Footer() {
     <div className='container'>
         <footer className='py-5'>
             <div className='row' style={{flexWrap:'nowrap', justifyContent:'center', alignItems:'center'}}>
-                <div className='col-6 col-md-2 mb-3' style={{width:'20.66666667%'}}>
+                <div className='logo col-6 col-md-2 mb-3'>
                     <img className='footerLogo' src={footerLogo} alt='footerLogo' />
                 </div>
                 <div className='col-6 col-md-2 mb-3'>
